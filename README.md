@@ -14,8 +14,6 @@ A minimal extension of Laravel default behaviour to minimize interactions after 
 ## How to use
 
 * ```composer require coppolafab/micro-laravel-mysql-driver```
-* Add these to your mysql database config
-** ```'microOverrideDriver' => env('DB_MICROMYSQL_OVERRIDE_DRIVER', false),```
-** ```'microCloseReadConnectionAfterWrite' => env('DB_MICROMYSQL_CLOSE_READ_CONNECTION_AFTER_WRITE', false),```
+* Add these to your mysql database config: ```'microOverrideDriver' => env('DB_MICROMYSQL_OVERRIDE_DRIVER', false), 'microCloseReadConnectionAfterWrite' => env('DB_MICROMYSQL_CLOSE_READ_CONNECTION_AFTER_WRITE', false),```
 
 Enable those via .env file.
