@@ -1,0 +1,37 @@
+{
+    "name": "coppolafab/micro-laravel-mysql-driver",
+    "description": "Lighter Laravel MySQL driver",
+    "version": "1.0.0",
+    "keywords": [
+        "database",
+        "mysql",
+        "driver",
+        "laravel"
+    ],
+    "homepage": "https://github.com/coppolafab/micro-laravel-mysql-driver",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "homepage": "http://github.com/coppolafab"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "coppolafab\\MicroMySqlDriver\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-pdo": "*",
+        "illuminate/support": "^5.7|^6.0",
+        "illuminate/database": "^5.7|^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "coppolafab\\MicroMySqlDriver\\MicroMySqlDriverServiceProvider"
+            ]
+        }
+    }
+}
