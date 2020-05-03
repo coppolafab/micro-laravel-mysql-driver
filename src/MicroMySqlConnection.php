@@ -6,7 +6,7 @@ namespace coppolafab\MicroMySqlDriver;
 
 use Illuminate\Database\MySqlConnection as BaseMysqlConnection;
 
-class MySqlConnection extends BaseMysqlConnection
+class MicroMySqlConnection extends BaseMysqlConnection
 {
     public function recordsHaveBeenModified($value = true)
     {
