@@ -11,7 +11,7 @@ class MicroMySqlDriverServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        if (!config('database.connections.mysql.microOverrideDriver')) {
+        if (config('database.connections.mysql.microOverrideDriver')) {
             $this->app->bind('db.connector.mysql', function () {
                 return new MicroMySqlConnector();
             });
