@@ -1,7 +1,6 @@
 {
     "name": "coppolafab/micro-laravel-mysql-driver",
     "description": "Lighter Laravel MySQL driver",
-    "version": "1.0.0",
     "keywords": [
         "database",
         "mysql",
