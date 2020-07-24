@@ -1,11 +1,10 @@
 <?php
-
 declare(strict_types=1);
 
 namespace coppolafab\MicroMySqlDriver;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Connection;
+use Illuminate\Support\ServiceProvider;
 
 class MicroMySqlDriverServiceProvider extends ServiceProvider
 {

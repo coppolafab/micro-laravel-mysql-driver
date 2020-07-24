@@ -1,6 +1,6 @@
 {
     "name": "coppolafab/micro-laravel-mysql-driver",
-    "description": "Lighter Laravel MySQL driver",
+    "description": "A minimal extension of Laravel default behaviour to minimize interactions after connection towards a MySql Server",
     "keywords": [
         "database",
         "mysql",
@@ -12,7 +12,7 @@
     "license": "ISC",
     "authors": [
         {
-            "homepage": "http://github.com/coppolafab"
+            "homepage": "https://github.com/coppolafab"
         }
     ],
     "autoload": {
@@ -23,8 +23,8 @@
     "require": {
         "php": ">=7.2",
         "ext-pdo": "*",
-        "illuminate/support": "^5.7|^6.0",
-        "illuminate/database": "^5.7|^6.0"
+        "illuminate/support": "^5.7|^7.0",
+        "illuminate/database": "^5.7|^7.0"
     },
     "extra": {
         "laravel": {
